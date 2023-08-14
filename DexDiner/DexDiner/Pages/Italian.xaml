@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexDiner.Pages.Italian"
+             Title="Italian">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Label 
+            Text="Welcome to a slice of Italy!" FontSize="30"  VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Label Grid.Row="1" Grid.Column="4" FontFamily="Consolas" FontSize="20"
+               Text="Here we have the Italian section. As you can see it is a work in progress as I am still discovering what I like and what I want to share with you. Italian food was something that I have sstarted becoming interested in recently and I look forward to bring you more recipes in the future." />
+        <Image Source="italianfood.jpg" Grid.Row="3" Grid.Column="4"/>
+        <Button x:Name="ChickenTortelliniSalad" Text="Chicken Tortellini Salad" TextColor="Black" BackgroundColor="LightBlue" ImageSource="chickentortellinisalad.jpg" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Row="1" Grid.Column="0" Margin="5"/>
+    </Grid>
+</ContentPage>

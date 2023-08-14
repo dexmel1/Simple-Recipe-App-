@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexDiner.Pages.CountryCooking"
+             Title="Country Cooking">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Label Text="Welcome to the Country!" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" />
+        <Label Grid.Row="1" Grid.Column="4" FontFamily="Consolas" FontSize="20"
+               Text="This could possibly be my favorite page. All those unhealthy, butter filled comfort foods that fill you up to the point you just need to take a nap. I grew up mainly on country and southern food and I carry that to this day. Nothing can compete with a fresh pan of baked beans or homemade noddles straight from your grandma's kitchen.  "/>
+        <Image Source="countryfood.jpg" Grid.Row="2" Grid.Column="4"/>
+
+        <Button x:Name="MacAndCheeseBtn" Text="Baked Mac and Cheese" ImageSource="bakedmacandcheese.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="0" Grid.Row="1" Margin="5"/>
+        <Button x:Name="BuffaloChickenDip" Text="Buffalo Chicken Dip" ImageSource="buffalochickendip.jpg" TextColor="Black" BackgroundColor="LightBlue"  ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="1" Grid.Row="1" Margin="5"/>
+        <Button x:Name="ChristmasHamBtn" Text="Christmas Ham" ImageSource="christmasham.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="2" Grid.Row="1" Margin="5"/>
+        <Button x:Name="BakedBeansBtn" Text="Dr. Pepper Baked Beans" ImageSource="drpepperbakedbeans.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="3" Grid.Row="1" Margin="5"/>
+        <Button x:Name="GreenBeanCasseroleBtn" Text="Green Bean Casserole" ImageSource="greenbeancasserole.jpg" TextColor="Black" BackgroundColor="LightBlue"  ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="0" Grid.Row="2" Margin="5"/>
+        <Button x:Name="NoodlesBtn" Text="Homemade Noodles" ImageSource="noodles.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="1" Grid.Row="2" Margin="5"/>
+        <Button x:Name="ChileBtn" Text="Kitchen Sink Chile" ImageSource="chile.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="2" Grid.Row="2" Margin="5"/>
+    </Grid>
+</ContentPage>

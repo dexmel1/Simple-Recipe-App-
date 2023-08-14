@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = DexDiner
+build_property.ProjectDir = C:\Users\Dex\Desktop\Project1\DexDiner\DexDiner\
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Pages/About.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Pages.About.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\About.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\About.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Pages/Asian.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Pages.Asian.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Asian.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Asian.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Pages/Country Cooking.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Pages.Country Cooking.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Country Cooking.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Country Cooking.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Pages/Italian.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Pages.Italian.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Italian.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Italian.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Pages/Mexican.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Pages.Mexican.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mexican.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mexican.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Pages/RecipeDisplayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Pages.RecipeDisplayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\RecipeDisplayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\RecipeDisplayPage.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Dex/Desktop/Project1/DexDiner/DexDiner/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DexDiner.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexDiner.Pages.Asian"
+             Title="Asian Recipes">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Text="Welcome to the Far East" FontSize="30"  VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Label Grid.Row="1" Grid.Column="4" FontFamily="Consolas" FontSize="20"
+               Text="I've always loved asian cuisine. From growing up with the time honored Chinese Take-out to spending some time over seas and enjoying authentic recipes from people that spend a lifetime mastering their craft. One of the favorite things I found was Lumpia from the Phillipines (Recipe coming as soon as I can figure it out)"/>
+        <Image Source="asianfood.jpg" Grid.Row="3" Grid.Column="4"/>
+
+        <Button x:Name="BeefBroccoliBtn" TextColor="Black" BackgroundColor="LightBlue" Text="Beef and Broccoli" ImageSource="beefbroccoli.jpg" ContentLayout="Bottom"  HeightRequest="210" WidthRequest="200" Grid.Row="1" Grid.Column="0" Margin="5" />
+        <Button x:Name="ChickenFriedRiceBtn" Text="Chicken Fried Rice" TextColor="Black" BackgroundColor="LightBlue" ImageSource="chickenfriedrice.jpg" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <Button x:Name="GrilledTeriyakiChickenBtn" Text="Girlled Teriyaki Chicken" TextColor="Black" BackgroundColor="LightBlue" ImageSource="grilledteriyakichicken.jpg" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Row="1" Grid.Column="2" Margin="5"/>
+    </Grid>
+
+
+</ContentPage>

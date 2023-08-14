@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexDiner.Pages.HomePage"
+             Title="Home Page">
+    
+       
+    <Grid>
+         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+             <ColumnDefinition Width="Auto"/>
+             <ColumnDefinition Width="Auto"/>
+             <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="1" Grid.Column="0" WidthRequest="400" FontFamily="Consolas" FontSize="Medium" Margin="20"
+               Text="Welcome to Dex's Diner. Home to some of my favorite recipes from all different types of food. Each of these recipes has been prepared and taste tested by yours truly. 
+                            
+                You can begine your journey by searching for something specific in the search bar to the right.
+               Or you can click the menu icon in the top left corner and go to the recipes to browse yourself. Happy Cooking!"/>
+
+        <SearchBar x:Name="SearchBar" Grid.Row="0" Grid.Column="2" WidthRequest="300" Placeholder="Search..." PlaceholderColor="White"
+                SearchButtonPressed="OnSearchButtonPressed"/>
+        <ListView x:Name="searchResults" Grid.Row="1" Grid.Column="2" WidthRequest="300" HorizontalOptions="Center"/>
+        <Button x:Name="SearchBtn" Grid.Row="2" Grid.Column="2" Text="Search Relected Recipe" WidthRequest="300" Margin="0,10,0,10"/>
+
+        <Image Source="dinerlogo.jpg" Grid.Column="4" Grid.Row="0" Grid.RowSpan="3"  />
+
+
+
+
+    </Grid>
+    
+</ContentPage>

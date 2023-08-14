@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexDiner.Pages.Mexican"
+             Title="Mexican">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Label Text="Welcome to where everyday is Taco Tuesday" FontSize="30" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="0"/>
+        <Label Grid.Row="1" Grid.Column="4" FontFamily="Consolas" FontSize="20"
+               Text="Home of all the deliciousness of melted cheese and the punch of the right peppers. Hispanic food is one of my favorites due to the sheer collection of flavors and ingredients that can be used. Everything from sweet to savory to spicy. If you think of it theres a recipe for it somewhere." />
+        <Image Source="mexicanfood.jpg" Grid.Row="3" Grid.Column="4"/>
+
+
+
+        <Button x:Name="ChickenEnchiladaBtn" Text="Chicken Enchiladas" ImageSource="chickenenchilada.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="0" Grid.Row="1" Margin="5"/>
+        <Button x:Name="FishTacoBtn" Text="Fish Tacos" ImageSource="fishtaco.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="1" Grid.Row="1" Margin="5"/>
+        <Button x:Name="StuffedPeppersBtn" Text="Stuffed Peppers" ImageSource="stuffedpepper.jpg" TextColor="Black" BackgroundColor="LightBlue" ContentLayout="Bottom" HeightRequest="210" WidthRequest="200" Grid.Column="2" Grid.Row="1" Margin="5"/>
+    </Grid>
+</ContentPage>

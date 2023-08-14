@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="DexDiner.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:DexDiner.Pages"
+    Shell.ForegroundColor="White">
+    
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="100" BackgroundColor="black">
+            <Image Source="flyoutbanner.jpg"/>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Home Page" Icon="homeicon.png">
+        <ShellContent Title="Welcome to Dex's Diner" ContentTemplate="{DataTemplate local:HomePage}"/>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Recipes" Icon="bookicon.png">
+        <ShellContent Title="Asian Cuisine" ContentTemplate="{DataTemplate local:Asian}"/>
+        <ShellContent Title="Italian Cuisine" ContentTemplate="{DataTemplate local:Italian}"/>
+        <ShellContent Title="Mexcian Cuisine" ContentTemplate="{DataTemplate local:Mexican}"/>
+        <ShellContent Title="Country Cooking" ContentTemplate="{DataTemplate local:CountryCooking}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="About" Icon="questionmark.png">
+        <ShellContent Title="About Us" ContentTemplate="{DataTemplate local:About}"/>
+    </FlyoutItem>
+
+</Shell>
